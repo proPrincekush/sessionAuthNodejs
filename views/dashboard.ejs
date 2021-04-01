@@ -1,0 +1,11 @@
+<%- include('partials/header',{title:'dashboard'}); -%>
+    <div class="container">
+        <div class="row">
+            <dov class="col-md-12">
+                <h1 class="my-3">Welcome <%= username %> !</h1>
+                <a href="/logout" class="btn btn-danger">Log Out</a>
+                <p><%= console.log(userdata) %></p>
+            </dov>
+        </div>
+    </div>
+<%- include('partials/footer'); -%>
